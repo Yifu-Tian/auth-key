@@ -1,0 +1,45 @@
+/* KeyForm.css */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Use full screen height */
+  padding: 20px;
+  background-color: #f5f5f5; /* Set background color similar to Search.js */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-size: 1rem; /* Match font size from Search.js */
+  color: #333; /* Color similar to Search.js */
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  font-size: 0.9rem; /* Match font size from Search.js */
+  padding: 0.5rem;
+  border: 1px solid #ccc; /* Border color like in Search.js */
+  border-radius: 0.25rem; /* Slightly rounded corners for the input field */
+  margin-bottom: 1rem; /* Space before the submit button */
+}
+
+.submit-btn {
+  font-size: 0.9rem; /* Match font size from Search.js */
+  padding: 0.5rem 1rem;
+  color: #fff; /* White text */
+  background-color: #007bff; /* Blue background like buttons in Search.js */
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s; /* Smooth transition for button hover */
+}
+
+.submit-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
